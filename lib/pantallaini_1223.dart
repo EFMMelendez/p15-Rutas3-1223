@@ -1,6 +1,7 @@
 //Pantallaini_1223
 import 'package:flutter/material.dart';
 
+// ignore: camel_case_types
 class Pantallaini_1223 extends StatelessWidget {
   const Pantallaini_1223({super.key});
 
@@ -9,7 +10,7 @@ class Pantallaini_1223 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.brown,
-        title: Text("Pagina inicial Melendez1223"),
+        title: const Text("Pagina inicial Melendez1223"),
       ),
       body: Center(
           child: Column(
@@ -17,14 +18,14 @@ class Pantallaini_1223 extends StatelessWidget {
         children: [
           ElevatedButton(
               onPressed: () {
-                Navigator.pushNamed(context, "/Pantalla 1");
+                Navigator.pushNamed(context, "/Pantalla1_1223");
               },
-              child: Text("Mover a Pantalla 1")),
+              child: const Text("Ejemplo Card")),
           ElevatedButton(
               onPressed: () {
-                Navigator.pushNamed(context, "/Pantalla 2");
+                Navigator.pushNamed(context, "/Pantalla2_1223");
               },
-              child: Text("Mover a Pantalla 2"))
+              child: const Text("Mover a Pantalla 2"))
         ],
 
         //fin de niños

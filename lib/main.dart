@@ -14,9 +14,9 @@ class Miapp1223 extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: "/",
       routes: {
-        "//": (context) => Pantallaini_1223(),
-        "/Pantalla 1": (context) => Pantalla1_1223(),
-        "/Pantalla 2": (context) => Pantalla2_1223(),
+        "/": (context) => const Pantallaini_1223(),
+        "/Pantalla1_1223": (context) => const Pantalla1_1223(),
+        "/Pantalla2_1223": (context) => const Pantalla2_1223(),
       }, //fiin ruta paginas
     ); //fin de material
   }
